@@ -1,153 +1,216 @@
-# BIS5203 HTML & CSS Web Application
+# Nijhum's Portfolio Website - BIS5203 Project
 
-This is a complete 5-page website created for the BIS5203 Web Design and Development assessment.
+A modern, responsive portfolio website showcasing web development skills and personal projects. Built with HTML5, CSS3, and JavaScript for the BIS5203 Web Design and Development course.
 
-## Project Structure
+🌐 **Live Website:** [https://nawshinnijhum.github.io/portfolioweb/about.html](https://nawshinnijhum.github.io/portfolioweb/about.html)
+
+## 👤 About
+
+**Name:** Nawshin Nijhum  
+**Email:** Nawshin.nijhum420@gmail.com  
+**Course:** BIS5203 Web Design and Development  
+**Assignment:** Complete HTML & CSS Web Application
+
+## 🚀 Project Structure
 
 ```
 BIS5203-WebApp/
-├── index.html          # Home page
-├── about.html          # About Me page
-├── skills.html         # Skills page
-├── portfolio.html      # Portfolio page
-├── contact.html        # Contact page
+├── index.html          # Home page with hero section
+├── about.html          # Personal introduction (main assignment page)
+├── skills.html         # Technical skills showcase
+├── portfolio.html      # Project portfolio gallery
+├── contact.html        # Contact form and information
 ├── css/
-│   └── style.css       # Main stylesheet
-├── images/             # Image folder
-│   ├── profile.jpg.placeholder
-│   ├── project1.jpg.placeholder
-│   ├── project2.jpg.placeholder
-│   ├── project3.jpg.placeholder
-│   ├── project4.jpg.placeholder
-│   ├── project5.jpg.placeholder
-│   └── project6.jpg.placeholder
-└── README.md           # This file
+│   └── style.css       # Cleaned and optimized stylesheet
+├── js/
+│   └── script.js       # Interactive JavaScript functionality
+├── images/             # Profile and project images
+│   ├── profilepicture.jpg  # Personal profile photo
+│   └── *.placeholder   # Project image placeholders
+├── .vscode/
+│   └── launch.json     # VS Code debugging configuration
+└── README.md           # Project documentation
 ```
 
-## Features Implemented
+## ✨ Features Implemented
 
-### ✅ Required Features
+### 🎯 Core Requirements
 
-- [x] 5-page website structure (Home, About Me, Skills, Portfolio, Contact)
-- [x] HTML5 semantic structure
-- [x] CSS styling for visual appeal
-- [x] Responsive design (mobile-first approach)
-- [x] Accessibility features (WCAG 2.1 compliance)
-- [x] Contact form with validation
-- [x] No readymade templates used
+- ✅ **5-page responsive website** (Home, About, Skills, Portfolio, Contact)
+- ✅ **HTML5 semantic structure** with proper accessibility
+- ✅ **Modern CSS3 styling** with gradients and animations
+- ✅ **Mobile-first responsive design** (480px, 768px+ breakpoints)
+- ✅ **Contact form** with JavaScript validation
+- ✅ **No templates used** - completely custom built
 
-### ✅ Advanced Features
+### 🔧 Advanced Features
 
-- [x] CSS Grid and Flexbox layouts
-- [x] Smooth animations and transitions
-- [x] Interactive hover effects
-- [x] Cross-browser compatibility
-- [x] Performance optimization
-- [x] SEO-friendly structure
-- [x] Form validation with JavaScript
-- [x] Accessible navigation with ARIA labels
+- ✅ **Interactive JavaScript** - Form validation, animations, scroll effects
+- ✅ **CSS Grid & Flexbox** layouts for modern responsiveness
+- ✅ **Custom CSS icons** replacing emojis for better performance
+- ✅ **Smooth animations** and hover effects throughout
+- ✅ **Accessibility features** (WCAG 2.1 compliant)
+- ✅ **Cross-browser compatibility** with vendor prefixes
+- ✅ **Performance optimized** CSS and JavaScript
+- ✅ **SEO-friendly** meta tags and structure
 
-## Pages Overview
+### 🎨 Design Highlights
 
-### 1. Home (index.html)
+- ✅ **Professional color scheme** (Blue-purple gradients)
+- ✅ **Consistent typography** and spacing system
+- ✅ **Interactive elements** with smooth transitions
+- ✅ **Profile photo integration** with hover effects
+- ✅ **Social media integration** with custom icons
+- ✅ **Clean, modern layout** optimized for all devices
 
-- Introduction to Nijhum as a future web designer
-- Website overview and navigation guide
-- Design philosophy showcase
-- Responsive hero section
+## 📄 Pages Overview
 
-### 2. About Me (about.html)
+### 🏠 1. Home (index.html)
 
-- Detailed background information
-- Education history
-- Personal interests and hobbies
-- Professional goals and aspirations
+- **Hero section** with animated introduction
+- **Website navigation** overview
+- **Professional introduction** to Nijhum
+- **Call-to-action** buttons leading to key sections
 
-### 3. Skills (skills.html)
+### 👤 2. About Me (about.html) ⭐ **Main Assignment Page**
 
-- Technical skills (HTML5, CSS3, Responsive Design)
-- Design skills (Visual Design, UX, Layout)
-- Tools and technologies
-- Learning goals and professional approach
+- **Personal introduction** with profile photo
+- **Educational background** (Computer Science student)
+- **Personal interests** with custom CSS icons
+- **Contact information** and social links
+- **Bio content** optimized for GitHub Pages deployment
 
-### 4. Portfolio (portfolio.html)
+### 🛠️ 3. Skills (skills.html)
 
-- 6 featured projects with descriptions
-- Design process explanation
-- Technical highlights
-- Future project plans
+- **Technical skills** showcase (HTML5, CSS3, JavaScript)
+- **Interactive skill cards** with hover effects
+- **Design principles** and methodologies
+- **Learning objectives** and professional goals
 
-### 5. Contact (contact.html)
+### 💼 4. Portfolio (portfolio.html)
 
-- Contact form with validation
-- Multiple contact methods
-- Project information guidelines
-- FAQ section
+- **Project gallery** with 6 featured projects
+- **Image placeholders** ready for real projects
+- **Hover animations** and interactive elements
+- **Project descriptions** and technical details
 
-## Technical Implementation
+### 📞 5. Contact (contact.html)
+
+- **Interactive contact form** with JavaScript validation
+- **Multiple contact methods** (email, social media)
+- **Real-time form feedback** and error handling
+- **Professional contact information**
+
+## 🔧 Technical Implementation
 
 ### HTML5 Features
 
-- Semantic elements (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`)
-- Proper heading hierarchy (h1-h6)
-- ARIA labels for accessibility
-- Meta tags for SEO
-- Form validation attributes
+- **Semantic structure** (`header`, `nav`, `main`, `section`, `footer`)
+- **Accessibility attributes** (ARIA labels, alt text, form labels)
+- **Meta tags** for SEO and social media sharing
+- **Proper form structure** with validation attributes
 
 ### CSS3 Features
 
-- CSS Grid for complex layouts
-- Flexbox for flexible components
-- Custom properties (CSS variables)
-- Media queries for responsiveness
-- CSS animations and transitions
-- Gradient backgrounds
-- Box shadows and modern effects
+- **CSS Grid & Flexbox** for responsive layouts
+- **Custom properties** (CSS variables) for consistent theming
+- **Advanced selectors** and pseudo-elements
+- **CSS animations** and keyframe transitions
+- **Media queries** for responsive breakpoints (480px, 768px)
+- **Gradient backgrounds** and modern visual effects
 
-### Accessibility Features
+### JavaScript Features
 
-- WCAG 2.1 AA compliance
-- Keyboard navigation support
-- Screen reader compatibility
-- High contrast mode support
-- Focus indicators
-- Alt text for images
-- Proper form labels
+- **Form validation** with real-time feedback
+- **Interactive animations** and scroll effects
+- **Navigation enhancements** and user experience improvements
+- **Accessibility features** (keyboard navigation, screen reader support)
+- **Progressive enhancement** ensuring functionality without JS
 
-### Responsive Design
+### HTML5 Features
 
-- Mobile-first approach
-- Breakpoints: 480px, 768px, 1200px
-- Flexible grid systems
-- Scalable typography
-- Optimized touch targets
+## 🌐 Deployment & Live Links
 
-## Before Submission
+### GitHub Pages Deployment
 
-### 1. Add Images
+- **Repository:** [github.com/nawshinnijhum/portfolioweb](https://github.com/nawshinnijhum/portfolioweb)
+- **Live Website:** [nawshinnijhum.github.io/portfolioweb/about.html](https://nawshinnijhum.github.io/portfolioweb/about.html)
+- **Assignment Page:** The `about.html` serves as the main single-page introduction
 
-Replace the `.placeholder` files in the `images/` folder with actual images:
+### Development Setup
 
-- `profile.jpg` - Professional headshot (250x250px)
-- `project1.jpg` to `project6.jpg` - Project screenshots (350x200px)
+```bash
+# Clone the repository
+git clone https://github.com/nawshinnijhum/portfolioweb.git
 
-### 2. Validate HTML
+# Navigate to project folder
+cd portfolioweb
 
-Visit https://validator.w3.org/ and validate each HTML file:
+# Open in VS Code
+code .
 
-- index.html
-- about.html
-- skills.html
-- portfolio.html
-- contact.html
+# Use Live Server extension or open files directly in browser
+```
 
-Take screenshots of validation results showing no errors.
+## 🛠️ Development Tools & Configuration
 
-### 3. Test Responsiveness
+### VS Code Setup
 
-Test the website on different screen sizes:
+- **Launch configurations** in `.vscode/launch.json`
+- **Debugging support** for Chrome browser
+- **Live Server integration** for development
+- **Multiple launch targets** for each HTML page
 
-- Mobile (320px-767px)
+### Browser Testing
+
+- ✅ **Chrome** (Primary development browser)
+- ✅ **Firefox** (Cross-browser compatibility)
+- ✅ **Safari** (WebKit engine support)
+- ✅ **Edge** (Chromium-based testing)
+
+### Performance Optimization
+
+- **Cleaned CSS** - Removed duplicates and unused styles
+- **Optimized images** - Proper sizing and compression
+- **Minified code** - Efficient loading and rendering
+- **Accessibility** - Screen reader and keyboard navigation support
+
+## 📋 Assignment Compliance
+
+### Core Requirements Met
+
+- ✅ **Single-page introduction** (`about.html`) with personal info
+- ✅ **Name and bio** prominently displayed
+- ✅ **Contact information** (email: Nawshin.nijhum420@gmail.com)
+- ✅ **GitHub Pages deployment** with public repository
+- ✅ **Professional presentation** suitable for academic submission
+
+### Extended Features
+
+- ✅ **Complete 5-page portfolio** beyond basic requirements
+- ✅ **Advanced interactivity** with JavaScript enhancements
+- ✅ **Modern web standards** (HTML5, CSS3, ES6+)
+- ✅ **Responsive design** optimized for all devices
+- ✅ **Accessibility compliance** following WCAG 2.1 guidelines
+
+## 🎓 Academic Information
+
+**Student:** Nawshin Nijhum  
+**Course:** BIS5203 Web Design and Development  
+**Assignment:** HTML & CSS Web Application + GitHub Pages Deployment  
+**Submission Date:** September 2025  
+**Institution:** [University/College Name]
+
+## 📞 Contact Information
+
+- **Email:** Nawshin.nijhum420@gmail.com
+- **GitHub:** [@nawshinnijhum](https://github.com/nawshinnijhum)
+- **Portfolio:** [Live Website](https://nawshinnijhum.github.io/portfolioweb/about.html)
+
+---
+
+_This project demonstrates comprehensive web development skills including HTML5 semantic markup, modern CSS3 styling, JavaScript interactivity, responsive design principles, and professional deployment practices._
+
 - Tablet (768px-1199px)
 - Desktop (1200px+)
 
