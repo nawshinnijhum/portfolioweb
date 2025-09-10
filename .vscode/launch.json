@@ -1,0 +1,66 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome",
+      "request": "launch",
+      "type": "chrome",
+      "url": "file://${workspaceFolder}/index.html",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-debug-profile"
+    },
+    {
+      "name": "Launch About Page",
+      "request": "launch",
+      "type": "chrome",
+      "url": "file://${workspaceFolder}/about.html",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-debug-profile"
+    },
+    {
+      "name": "Launch Skills Page",
+      "request": "launch",
+      "type": "chrome",
+      "url": "file://${workspaceFolder}/skills.html",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-debug-profile"
+    },
+    {
+      "name": "Launch Portfolio Page",
+      "request": "launch",
+      "type": "chrome",
+      "url": "file://${workspaceFolder}/portfolio.html",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-debug-profile"
+    },
+    {
+      "name": "Launch Contact Page",
+      "request": "launch",
+      "type": "chrome",
+      "url": "file://${workspaceFolder}/contact.html",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-debug-profile"
+    },
+    {
+      "name": "Launch with Live Server",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://localhost:5500/index.html",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-debug-profile"
+    },
+    {
+      "name": "Attach to Chrome",
+      "request": "attach",
+      "type": "chrome",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
